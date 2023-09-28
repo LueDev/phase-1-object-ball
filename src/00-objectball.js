@@ -398,7 +398,7 @@ const doesLongNameStealATon = function(){
             for(player in value){
                 if(value[player]['steals'] > stealsCounter){
                     stealsCounter = value[player]['steals']
-                    console.log("PLAYER: ", player)
+                    // console.log("PLAYER: ", player)
                     playerWithHighestSteals = {} //resets the object every time a new player with bigger shoes is found
                     playerWithHighestSteals[player] = value[player]['steals']// populates the rebounds of the player with the biggest shoes
                 }
